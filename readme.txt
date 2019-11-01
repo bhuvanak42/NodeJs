@@ -22,6 +22,19 @@ multer  1.4.1
 rotating-file-stream  1.4.
 nodemon  1.18.1 (Dev dependency)
 
+Uses of dependencies
+====================
+bcrypt is used to create a hash for password taking password and number of hash rounds as input  
+body-parser Parse incoming request bodies in a middleware
+express is Node.js framework
+jsonwebtoken is to generate a web token for the session
+mongoose is ORM for Node.js and MongoDB. 
+morgan for keeping logs during APIs. This can be found in log folder access.log file. It logs all the requests and errors. 
+multer adds a body object and a file or files object to the request object.
+rotating-file-stream is used for access.log file 
+nodemon tool will develop node.js applications by automatically restarting the node application when file changes in the directory are detected.
+
+
 About the project
 =================
 This is a project that takes in products and orders for the products. The user has to signup and login the add products and order for products. Each product takes input as name, price and product image. 
