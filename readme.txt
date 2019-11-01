@@ -66,3 +66,7 @@ delete('/:id') (Authorization required) delete a user.
 Upload
 =======
 Will contain product images that are uploaded during post operation.
+
+Note
+====
+Output of each API can be seen through POSTMAN.
